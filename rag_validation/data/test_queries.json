@@ -1,0 +1,329 @@
+[
+  {
+    "id": "STD_001",
+    "query": "乙酰磺胺酸钾是什么",
+    "query_type": "standard_name",
+    "expected_terms": [
+      "乙酰磺胺酸钾",
+      "乙酰磺胺酸钾（又名安赛蜜）"
+    ],
+    "expected_function_category": "甜味剂",
+    "notes": "标准术语定义查询"
+  },
+  {
+    "id": "STD_002",
+    "query": "卡拉胶是什么类别",
+    "query_type": "standard_name",
+    "expected_terms": [
+      "卡拉胶"
+    ],
+    "expected_function_category": "乳化剂",
+    "notes": "标准术语类别查询"
+  },
+  {
+    "id": "STD_003",
+    "query": "乳化硅油是什么",
+    "query_type": "standard_name",
+    "expected_terms": [
+      "乳化硅油"
+    ],
+    "expected_function_category": "消泡剂",
+    "notes": "标准术语类别查询"
+  },
+  {
+    "id": "STD_004",
+    "query": "二氧化钛是什么",
+    "query_type": "standard_name",
+    "expected_terms": [
+      "二氧化钛"
+    ],
+    "expected_function_category": "着色剂",
+    "notes": "标准术语定义查询"
+  },
+  {
+    "id": "STD_005",
+    "query": "苯甲酸及其钠盐是什么",
+    "query_type": "standard_name",
+    "expected_terms": [
+      "苯甲酸及其钠盐"
+    ],
+    "expected_function_category": "防腐剂",
+    "notes": "标准术语定义查询"
+  },
+  {
+    "id": "STD_006",
+    "query": "蔗糖脂肪酸酯是什么",
+    "query_type": "standard_name",
+    "expected_terms": [
+      "蔗糖脂肪酸酯"
+    ],
+    "expected_function_category": "乳化剂",
+    "notes": "标准术语定义查询"
+  },
+  {
+    "id": "ALIAS_001",
+    "query": "安赛蜜是什么",
+    "query_type": "alias_query",
+    "expected_terms": [
+      "乙酰磺胺酸钾",
+      "乙酰磺胺酸钾（又名安赛蜜）"
+    ],
+    "expected_function_category": "甜味剂",
+    "notes": "别名命中测试"
+  },
+  {
+    "id": "ALIAS_002",
+    "query": "蔗糖素是什么",
+    "query_type": "alias_query",
+    "expected_terms": [
+      "三氯蔗糖",
+      "三氯蔗糖（蔗糖素）"
+    ],
+    "expected_function_category": "甜味剂",
+    "notes": "别名命中测试"
+  },
+  {
+    "id": "ALIAS_003",
+    "query": "维果灵是什么",
+    "query_type": "alias_query",
+    "expected_terms": [
+      "二甲基二碳酸盐",
+      "二甲基二碳酸盐（又名维果灵）"
+    ],
+    "expected_function_category": "防腐剂",
+    "notes": "别名命中测试"
+  },
+  {
+    "id": "ALIAS_004",
+    "query": "富兰克胶是什么",
+    "query_type": "alias_query",
+    "expected_terms": [
+      "亚麻籽胶",
+      "亚麻籽胶（富兰克胶）"
+    ],
+    "expected_function_category": "增稠剂",
+    "notes": "别名命中测试"
+  },
+  {
+    "id": "ALIAS_005",
+    "query": "阿力甜是什么",
+    "query_type": "alias_query",
+    "expected_terms": [
+      "L-α-天冬氨酰-N-（2,2,4,4-四甲基-3-硫化三亚甲基）-D-丙氨酰胺"
+    ],
+    "expected_function_category": "甜味剂",
+    "notes": "别名命中测试"
+  },
+  {
+    "id": "ALIAS_006",
+    "query": "刺槐豆胶是什么",
+    "query_type": "alias_query",
+    "expected_terms": [
+      "槐豆胶",
+      "槐豆胶（又名刺槐豆胶）"
+    ],
+    "expected_function_category": "增稠剂",
+    "notes": "别名命中测试"
+  },
+  {
+    "id": "ALIAS_007",
+    "query": "BHA是什么",
+    "query_type": "alias_query",
+    "expected_terms": [
+      "丁基羟基茴香醚",
+      "丁基羟基茴香醚（BHA）"
+    ],
+    "expected_function_category": "抗氧化剂",
+    "notes": "英文缩写别名测试"
+  },
+  {
+    "id": "PAR_001",
+    "query": "亚硝酸钠能用于哪些食品",
+    "query_type": "parallel_term",
+    "expected_terms": [
+      "亚硝酸钠、亚硝酸钾",
+      "亚硝酸钠，亚硝酸钾"
+    ],
+    "expected_function_category": "护色剂、防腐剂",
+    "notes": "并列组名拆分查询"
+  },
+  {
+    "id": "PAR_002",
+    "query": "亚硝酸钾能用于哪些食品",
+    "query_type": "parallel_term",
+    "expected_terms": [
+      "亚硝酸钠、亚硝酸钾",
+      "亚硝酸钠，亚硝酸钾"
+    ],
+    "expected_function_category": "护色剂、防腐剂",
+    "notes": "并列组名拆分查询"
+  },
+  {
+    "id": "PAR_003",
+    "query": "焦亚硫酸钠是什么类别",
+    "query_type": "parallel_term",
+    "expected_terms": [
+      "二氧化硫、焦亚硫酸钾、焦亚硫酸钠、亚硫酸钠、亚硫酸氢钠、低亚硫酸钠"
+    ],
+    "expected_function_category": "漂白剂、防腐剂、抗氧化剂",
+    "notes": "并列防腐剂组名拆分查询"
+  },
+  {
+    "id": "PAR_004",
+    "query": "亚铁氰化钾是什么",
+    "query_type": "parallel_term",
+    "expected_terms": [
+      "亚铁氰化钾、亚铁氰化钠",
+      "亚铁氰化钾，亚铁氰化钠"
+    ],
+    "expected_function_category": "抗结剂",
+    "notes": "并列抗结剂组名拆分查询"
+  },
+  {
+    "id": "PAR_005",
+    "query": "硝酸钾属于什么类别",
+    "query_type": "parallel_term",
+    "expected_terms": [
+      "硝酸钠、硝酸钾",
+      "硝酸钠，硝酸钾"
+    ],
+    "expected_function_category": "护色剂、防腐剂",
+    "notes": "并列护色剂组名拆分查询"
+  },
+  {
+    "id": "PAR_006",
+    "query": "焦亚硫酸钾是什么",
+    "query_type": "parallel_term",
+    "expected_terms": [
+      "二氧化硫、焦亚硫酸钾、焦亚硫酸钠、亚硫酸钠、亚硫酸氢钠、低亚硫酸钠"
+    ],
+    "expected_function_category": "漂白剂、防腐剂、抗氧化剂",
+    "notes": "并列防腐剂组名拆分查询"
+  },
+  {
+    "id": "RULE_001",
+    "query": "乙酰磺胺酸钾可以用于哪些食品",
+    "query_type": "rule_query",
+    "expected_terms": [
+      "乙酰磺胺酸钾",
+      "乙酰磺胺酸钾（又名安赛蜜）"
+    ],
+    "expected_function_category": "甜味剂",
+    "notes": "规则摘要查询"
+  },
+  {
+    "id": "RULE_002",
+    "query": "苯甲酸及其钠盐可以用于哪些食品",
+    "query_type": "rule_query",
+    "expected_terms": [
+      "苯甲酸及其钠盐"
+    ],
+    "expected_function_category": "防腐剂",
+    "notes": "规则摘要查询"
+  },
+  {
+    "id": "RULE_003",
+    "query": "二氧化钛可用于哪些食品",
+    "query_type": "rule_query",
+    "expected_terms": [
+      "二氧化钛"
+    ],
+    "expected_function_category": "着色剂",
+    "notes": "规则摘要查询"
+  },
+  {
+    "id": "RULE_004",
+    "query": "卡拉胶可以用于哪些食品",
+    "query_type": "rule_query",
+    "expected_terms": [
+      "卡拉胶"
+    ],
+    "expected_function_category": "乳化剂、稳定剂、增稠剂",
+    "notes": "规则摘要查询"
+  },
+  {
+    "id": "RULE_005",
+    "query": "二氧化硫残留量",
+    "query_type": "rule_query",
+    "expected_terms": [
+      "二氧化硫、焦亚硫酸钾、焦亚硫酸钠、亚硫酸钠、亚硫酸氢钠、低亚硫酸钠"
+    ],
+    "expected_function_category": "漂白剂、防腐剂、抗氧化剂",
+    "notes": "规则摘要和备注残留量查询"
+  },
+  {
+    "id": "RULE_006",
+    "query": "乳化硅油可以用于哪些食品",
+    "query_type": "rule_query",
+    "expected_terms": [
+      "乳化硅油"
+    ],
+    "expected_function_category": "消泡剂",
+    "notes": "规则摘要查询"
+  },
+  {
+    "id": "CAT_001",
+    "query": "甜味剂有哪些",
+    "query_type": "category_query",
+    "expected_terms": [
+      "乙酰磺胺酸钾",
+      "三氯蔗糖",
+      "L-α-天冬氨酰-N-（2,2,4,4-四甲基-3-硫化三亚甲基）-D-丙氨酰胺",
+      "环己基氨基磺酸钠、环己基氨基磺酸钙"
+    ],
+    "expected_function_category": "甜味剂",
+    "notes": "类别枚举查询"
+  },
+  {
+    "id": "CAT_002",
+    "query": "防腐剂有哪些",
+    "query_type": "category_query",
+    "expected_terms": [
+      "苯甲酸及其钠盐",
+      "二甲基二碳酸盐",
+      "脱氢乙酸及其钠盐",
+      "山梨酸及其钾盐"
+    ],
+    "expected_function_category": "防腐剂",
+    "notes": "类别枚举查询"
+  },
+  {
+    "id": "CAT_003",
+    "query": "乳化剂有哪些",
+    "query_type": "category_query",
+    "expected_terms": [
+      "蔗糖脂肪酸酯",
+      "丙二醇脂肪酸酯",
+      "辛、癸酸甘油酯",
+      "不饱和脂肪酸单甘酯"
+    ],
+    "expected_function_category": "乳化剂",
+    "notes": "类别枚举查询"
+  },
+  {
+    "id": "CAT_004",
+    "query": "抗氧化剂有哪些",
+    "query_type": "category_query",
+    "expected_terms": [
+      "丁基羟基茴香醚",
+      "维生素E",
+      "羟基硬脂精",
+      "没食子酸丙酯"
+    ],
+    "expected_function_category": "抗氧化剂",
+    "notes": "类别枚举查询"
+  },
+  {
+    "id": "CAT_005",
+    "query": "着色剂有哪些",
+    "query_type": "category_query",
+    "expected_terms": [
+      "二氧化钛",
+      "姜黄素",
+      "紫胶红",
+      "苋菜红及其铝色淀"
+    ],
+    "expected_function_category": "着色剂",
+    "notes": "类别枚举查询"
+  }
+]

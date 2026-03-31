@@ -1,0 +1,9 @@
+﻿# Dependencies for extracting Appendix A / Table A.1 from GB 2760-2024 PDF
+# Preferred stack from the task requirements:
+# - PyMuPDF: page location, text block extraction, quick visual inspection
+# - pdfplumber: table extraction and row-level recovery
+# - pandas: normalization and preview export
+
+PyMuPDF>=1.24
+pdfplumber>=0.11
+pandas>=2.2
